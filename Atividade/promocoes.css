@@ -87,3 +87,11 @@ body{
     color: black;
     text-decoration: none;
 }
+
+.botao  button{
+    margin-left: 44%;
+    margin-top: 78px;
+    background-color: white;
+  color: black;
+  border: 2px solid #000000; /* Green */
+}

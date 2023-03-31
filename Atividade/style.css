@@ -2,7 +2,7 @@
 body{
     background-color: aliceblue;
     margin: 0px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .menu{
@@ -11,6 +11,7 @@ body{
     justify-content: space-between;
     /*            ⇑   ⇐   ⇓   ⇒    */
     box-shadow: 5px 0px 5px 4px rgb(124, 124, 124);
+    margin-bottom: 15px;
 }
 
 .menu img{
@@ -51,10 +52,117 @@ body{
     border-radius: 50px;
 }
 /* --------------------------------------------------------------- */
-/* ---------- Main --------- */
+/* ---------- Section --------- */
 
 .principal{
     margin-left: 15%;
     margin-right: 15%;
-    background-color: aliceblue;
+    background-color: rgb(146, 188, 211);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*            ⇑   ⇐   ⇓   ⇒    */
+    box-shadow: 2px 1px 5px -1px rgb(124, 124, 124);
 }
+
+.principal .SaibaMais{
+    text-align: justify;
+    padding: 15px;
+}
+
+.principal button{
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(146, 188, 211);
+}
+
+/* --------------------------------------------------------------- */
+/* ---------- Saiba Mais ----------- */
+
+.main {
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(146, 188, 211);
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+
+}
+
+.main img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.novidades {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.novidades h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.novidades .botao1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.novidades .botao1 button{
+    border-radius: 15px;
+    background-color: rgb(146, 188, 211);
+}
+
+/* --------------------------------------------------------------- */
+
+.main2{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(146, 188, 211);
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main2 img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.main2 .tipos{
+    padding-right: 10%;
+    padding-top: 30px;
+}
+
+.main2 .tipos h2{
+    text-decoration: underline;
+}
+
+.main2 .tipos .lista
+{  
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.main2 .tipos .botao2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.main2 .tipos .botao2 button{
+    border-radius: 15px;
+    background-color: rgb(146, 188, 211);
+}
+
+
+
+
+
