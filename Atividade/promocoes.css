@@ -63,3 +63,27 @@ body{
 .promocoes label{
     margin-left: 30px;
 }
+
+.ofertas img {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 190px;
+    height: 230px;
+}
+
+.nomes a{
+    font-size: 14px;
+    margin-left: 95px;
+    margin-top: 8px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.precos a{
+    font-size: 14px;
+    margin-left: 140px;
+    margin-top: 8px;
+    color: black;
+    text-decoration: none;
+}
