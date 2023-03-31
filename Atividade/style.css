@@ -55,8 +55,8 @@ body{
 /* ---------- Section --------- */
 
 .principal{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
     background-color: rgb(146, 188, 211);
     border-radius: 10px;
     display: flex;
@@ -82,8 +82,8 @@ body{
 
 .main {
     margin-top: 25px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
     background-color: rgb(146, 188, 211);
     padding: 5px;
     border-top-left-radius: 10px;
@@ -122,12 +122,15 @@ body{
 /* --------------------------------------------------------------- */
 
 .main2{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
     background-color: rgb(146, 188, 211);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 5px;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 15px;
 }
 
 .main2 img{
